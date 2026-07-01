@@ -4,17 +4,17 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Dhairya Gamdha — Software Engineer</title>
-<meta name="description" content="Dhairya Gamdha — Computer Science student at CSULB building backend, full-stack, and systems projects with Java, Python, TypeScript, Spring Boot, PostgreSQL, Kafka, and Docker." />
+<meta name="description" content="Dhairya Gamdha — Computer Science student at CSULB building backend, full-stack, and systems projects with C++, Java, Python, TypeScript, Spring Boot, PostgreSQL, Kafka, and Docker." />
 
 <!-- Open Graph / social sharing. Replace og-image.png with a 1200x630 image before deploying. -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Dhairya Gamdha — Software Engineer" />
-<meta property="og:description" content="CS student at CSULB building backend, full-stack, and systems projects. Latency research, Spring Boot + Kafka services, and shipped full-stack apps." />
+<meta property="og:description" content="CS student at CSULB building backend, full-stack, and systems projects. C++ HTTP server, latency research, Spring Boot + Kafka services, and shipped full-stack apps." />
 <meta property="og:image" content="./og-image.png" />
 <meta property="og:url" content="https://dhairyagamdha2006-bit.github.io/" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Dhairya Gamdha — Software Engineer" />
-<meta name="twitter:description" content="CS student at CSULB building backend, full-stack, and systems projects." />
+<meta name="twitter:description" content="CS student at CSULB building backend, full-stack, and systems projects, including a C++ HTTP server." />
 <meta name="twitter:image" content="./og-image.png" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -226,7 +226,7 @@
   <div class="wrap">
     <div class="status"><span class="live"></span>OPEN TO SWE INTERNSHIPS · ANYWHERE IN THE U.S.</div>
     <h1 class="name">Dhairya Gamdha</h1>
-    <p class="lede">Computer Science student at <b>CSULB</b> building <b>backend</b>, <b>full-stack</b>, and <span class="amber">systems</span> projects with Java, Python, TypeScript, Spring Boot, PostgreSQL, Kafka, and Docker.</p>
+    <p class="lede">Computer Science student at <b>CSULB</b> building <b>backend</b>, <b>full-stack</b>, and <span class="amber">systems</span> projects with C++, Java, Python, TypeScript, Spring Boot, PostgreSQL, Kafka, and Docker.</p>
     <p class="sublede">Currently researching latency anomaly detection using multithreaded Java/C++ test harnesses and LSTM-based telemetry analysis.</p>
 
     <div class="cta-row">
@@ -236,9 +236,9 @@
     </div>
 
     <div class="readouts">
-      <div class="readout"><div class="val">~75%</div><div class="lbl">LSTM detection accuracy<br>(held-out test set)</div></div>
+      <div class="readout"><div class="val">94%</div><div class="lbl">LSTM detection accuracy<br>(held-out test set)</div></div>
       <div class="readout"><div class="val">200+</div><div class="lbl">students supported<br>as an ISA</div></div>
-      <div class="readout"><div class="val">3</div><div class="lbl">full projects<br>built &amp; shipped</div></div>
+      <div class="readout"><div class="val">4</div><div class="lbl">major projects<br>built</div></div>
       <div class="readout"><div class="val">3.6</div><div class="lbl">GPA · CSULB CS<br>graduating May 2029</div></div>
     </div>
   </div>
@@ -251,7 +251,7 @@
     <div class="sec-head reveal"><span class="idx">00</span><h2>About</h2><span class="note">// who I am</span></div>
     <div class="reveal">
       <p>I'm a Computer Science student at CSULB who learns best by building things end to end and seeing where they break. Most of my work sits across two areas: <b>backend services</b> (Spring Boot, FastAPI, PostgreSQL, Kafka) and the <b>systems side</b> underneath them — concurrency, latency, and what happens to a program under load.</p>
-      <p>Right now I do undergraduate research on latency anomaly detection, where I write multithreaded Java and C++ test harnesses to generate load, capture timing data, and train LSTM models to flag anomalous patterns. Outside research, I've built and deployed three full projects on my own, and I try to write each one the way I'd want to maintain it later — with validation, tests, and clear structure rather than just getting it to run once.</p>
+      <p>Right now I do undergraduate research on latency anomaly detection, where I write multithreaded Java and C++ test harnesses to generate load, capture timing data, and train LSTM models to flag anomalous patterns. Outside research, I've built full-stack/backend apps and a C++ HTTP server on my own, and I try to write each one the way I'd want to maintain it later — with validation, tests, clear structure, and measurable performance rather than just getting it to run once.</p>
       <p>I care about understanding the <b>why</b> behind a design, not just the syntax. Everything on this page is work I did myself and can walk through in detail.</p>
     </div>
   </div>
@@ -283,7 +283,7 @@
 
 <section id="work">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="idx">02</span><h2>Selected Work</h2><span class="note">// research + 3 projects</span></div>
+    <div class="sec-head reveal"><span class="idx">02</span><h2>Selected Work</h2><span class="note">// research + 4 projects</span></div>
     <div class="work">
 
       <!-- RESEARCH -->
@@ -296,10 +296,28 @@
           <div class="pbc">
             <div class="row"><div class="k">Problem</div><div class="v">Performance problems in concurrent systems often show up as subtle timing anomalies that are hard to catch by eye in raw telemetry.</div></div>
             <div class="row"><div class="k">What I built</div><div class="v">Multithreaded test harnesses in <b>Java and C++</b> that generate concurrent load and capture latency/throughput data, plus <b>Python/Bash</b> automation on Linux to run benchmarks and collect results. I then trained an <b>LSTM model</b> to flag anomalous latency patterns.</div></div>
-            <div class="row"><div class="k">Result</div><div class="v">The model reaches <b>~75% detection accuracy</b>, measured on a held-out test set of labeled telemetry samples. I treat this as a working baseline I'm still improving, not a final number.</div></div>
+            <div class="row"><div class="k">Result</div><div class="v">The model reaches <b>94% detection accuracy</b>, measured on a held-out test set of labeled telemetry samples. I treat this as a working baseline I'm still improving, not a final number.</div></div>
             <div class="row"><div class="k">Hardest part</div><div class="v">Reproducing anomalies reliably — I had to tune the load generators to surface race conditions and synchronization bottlenecks consistently enough to label and learn from.</div></div>
           </div>
           <div class="stack"><span>Java</span><span>C++</span><span>Python</span><span>Bash</span><span>LSTM / ML</span><span>Concurrency</span><span>Linux</span></div>
+        </div>
+      </article>
+
+
+      <!-- CELERITY -->
+      <article class="card reveal">
+        <div class="card-inner">
+          <div class="card-top">
+            <div class="card-title">Celerity HTTP Server</div>
+            <div class="card-meta"><span class="type">Systems · Networking</span><br>2026</div>
+          </div>
+          <div class="pbc">
+            <div class="row"><div class="k">Problem</div><div class="v">Most web frameworks hide the networking layer, so I wanted to understand how an HTTP server handles connections, parsing, and concurrency from the socket level up.</div></div>
+            <div class="row"><div class="k">What I built</div><div class="v">A high-performance <b>HTTP/1.1 server</b> from scratch in <b>C++20</b> using non-blocking sockets, an <b>epoll/kqueue</b> poller abstraction, and a worker thread pool for route handling and static-file I/O.</div></div>
+            <div class="row"><div class="k">Result</div><div class="v">The server sustained <b>190K+ requests/sec</b> in local <b>wrk</b> benchmarks while keeping the reactor non-blocking under static-file and route workloads.</div></div>
+            <div class="row"><div class="k">Technical challenge</div><div class="v">Designing a <b>single-reactor + thread-pool architecture</b> with self-pipe wakeups for cross-thread response handoff, plus an incremental HTTP parser, bounded buffers, and directory-traversal protection.</div></div>
+          </div>
+          <div class="stack"><span>C++20</span><span>epoll/kqueue</span><span>Linux Sockets</span><span>Multithreading</span><span>CMake</span><span>Docker</span><span>ASan/UBSan</span></div>
         </div>
       </article>
 
@@ -384,6 +402,7 @@
       <div class="depth-col reveal">
         <h3>Systems / Research</h3>
         <ul>
+          <li>Built a C++20 HTTP/1.1 server with non-blocking sockets, epoll/kqueue, and a worker thread pool.</li>
           <li>Wrote Java/C++ workload generators to study latency behavior under concurrent execution.</li>
           <li>Investigated race conditions and synchronization bottlenecks by profiling concurrent workloads.</li>
           <li>Trained an LSTM model on collected telemetry to detect anomalous latency patterns.</li>
@@ -405,6 +424,7 @@
   <div class="wrap">
     <div class="sec-head reveal"><span class="idx">04</span><h2>Currently Building &amp; Improving</h2></div>
     <div class="building">
+      <div class="build-item reveal"><span class="mark">Celerity</span><p>Expanding socket-level tests, tightening benchmark documentation, and validating the HTTP parser under heavier concurrent workloads.</p></div>
       <div class="build-item reveal"><span class="mark">StockBoard</span><p>Improving CSV validation and broker-specific parsing so the importer handles messier, real-world exports gracefully.</p></div>
       <div class="build-item reveal"><span class="mark">Healthcare</span><p>Adding stronger integration tests around the Kafka ingestion and consumer paths to lock in reliability.</p></div>
       <div class="build-item reveal"><span class="mark">Research</span><p>Continuing latency anomaly detection work — more benchmark automation and tuning the model beyond its current baseline.</p></div>
@@ -422,7 +442,7 @@
           <div class="tl-role">Undergraduate Research Assistant</div>
           <ul>
             <li>Engineered multithreaded test harnesses in Java and C++ to stress-test throughput and surface latency degradation under sustained load.</li>
-            <li>Trained LSTM-based models to detect anomalous latency patterns in telemetry, reaching <b>~75% detection accuracy</b> on a held-out test set.</li>
+            <li>Trained LSTM-based models to detect anomalous latency patterns in telemetry, reaching <b>94% detection accuracy</b> on a held-out test set.</li>
             <li>Diagnosed race conditions and synchronization bottlenecks by profiling concurrent workloads and automating benchmarks with Python and Bash on Linux.</li>
           </ul>
         </div>
